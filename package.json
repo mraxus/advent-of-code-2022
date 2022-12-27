@@ -1,0 +1,37 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day": "node lib/scripts/setup-day.js",
+    "start": "node ./",
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "author": "mraxus",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "prettier": "2.8.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^16.0.3"
+  },
+  "aoc": {
+    "year": 2022,
+    "days": [
+      {
+        "day": 1,
+        "name": "Calorie Counting"
+      },
+      {
+        "day": 2,
+        "name": "Rock Paper Scissors"
+      }
+    ],
+    "author": "mraxus",
+    "stars": 2
+  }
+}
