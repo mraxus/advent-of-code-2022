@@ -2557,7 +2557,7 @@ function part2(input) {
   return result;
 }
 
-part1.desc = 'part 1';
+part1.desc = '';
 part1.tests = [
   {
     input: `A Y
@@ -2567,7 +2567,7 @@ C Z`,
   },
 ];
 
-part2.desc = 'part 2';
+part2.desc = '';
 part2.tests = [12];
 
 runIfMain(module, input, part1, part2);

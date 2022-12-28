@@ -358,7 +358,7 @@ function part2(input) {
   return prios.reduce((a, b) => a + b);
 }
 
-part1.desc = 'part 1';
+part1.desc = '';
 part1.tests = [
   {
     input: `vJrwpWtwJgWrhcsFMMfFFhFp
@@ -371,7 +371,7 @@ CrZsJsPPZsGzwwsLwLmpwMDw`,
   },
 ];
 
-part2.desc = 'part 2';
+part2.desc = '';
 part2.tests = [70];
 
 runIfMain(module, input, part1, part2);

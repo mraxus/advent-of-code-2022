@@ -2276,7 +2276,7 @@ function part2(input) {
   return ooC[0] + ooC[1] + ooC[2];
 }
 
-part1.desc = 'part 1';
+part1.desc = '';
 part1.tests = [{
   input: `1000
 2000
@@ -2295,7 +2295,7 @@ part1.tests = [{
   result: 24000
 }];
 
-part2.desc = 'part 2';
+part2.desc = '';
 part2.tests = [45000];
 
 runIfMain(module, input, part1, part2);

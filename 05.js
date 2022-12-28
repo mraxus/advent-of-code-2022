@@ -566,7 +566,7 @@ function part2(input) {
   return stacks.map(x => x.pop()).join('');
 }
 
-part1.desc = 'part 1';
+part1.desc = '';
 part1.tests = [
   {
     input: `    [D]    
@@ -582,7 +582,7 @@ move 1 from 1 to 2`,
   },
 ];
 
-part2.desc = 'part 2';
+part2.desc = '';
 part2.tests = ['MCD'];
 
 runIfMain(module, input, part1, part2);

@@ -1023,7 +1023,7 @@ function part2(input) {
     ;
 }
 
-part1.desc = 'part 1';
+part1.desc = '';
 part1.tests = [
   {
     input: `2-4,6-8
@@ -1036,7 +1036,7 @@ part1.tests = [
   },
 ];
 
-part2.desc = 'part 2';
+part2.desc = '';
 part2.tests = [4];
 
 runIfMain(module, input, part1, part2);
