@@ -50,9 +50,17 @@
       {
         "day": 6,
         "name": "Tuning Trouble"
+      },
+      {
+        "day": 7,
+        "name": "No Space Left On Device"
+      },
+      {
+        "day": 8,
+        "name": "Treetop Tree House"
       }
     ],
     "author": "mraxus",
-    "stars": 10
+    "stars": 14
   }
 }
