@@ -7,7 +7,11 @@
     "day": "node lib/scripts/setup-day.js",
     "start": "node ./",
     "test": "jest",
-    "watch": "jest --watch"
+    "test-latest": "jest -u --latest=",
+    "test-with-input": "jest -u --input=",
+    "test-latest-with-input": "jest -u --input= -u --latest=",
+    "watch": "jest --watch",
+    "watch-latest": "jest --watch -u --latest="
   },
   "author": "mraxus",
   "license": "ISC",
