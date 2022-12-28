@@ -1,11 +1,16 @@
 const { spawn } = require('child_process');
 const fs = require('fs').promises;
 
+const args = process.argv.slice(2);
+const latestOnly = args.includes('-l') || args.includes('--latest');
+
 const {
   aoc: { year, stars, author, days },
 } = require('./package.json');
+const latestDay = [[...days].reverse()[0]];
 
-const assignments = days.map(({ day, name }) => ({ title: `Day ${day}: ${name}`}))
+const assignments = (latestOnly ? latestDay :days)
+  .map(({ day, name }) => ({ filename: `${day}`.padStart(2, '0') + '.js', title: `Day ${day}: ${name}`}))
 const white = (text) => `\x1b[38;2;255;255;255m${text}\x1b[0m`;
 const gray = (text) => `\x1b[38;2;178;178;178m${text}\x1b[0m`;
 const yellow = (text) => `\x1b[38;2;255;255;106m${text}\x1b[0m`;

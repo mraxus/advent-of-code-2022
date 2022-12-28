@@ -6,6 +6,7 @@
   "scripts": {
     "day": "node lib/scripts/setup-day.js",
     "start": "node ./",
+    "latest": "node ./ --latest",
     "test": "jest",
     "test-latest": "jest -u --latest=",
     "test-with-input": "jest -u --input=",
