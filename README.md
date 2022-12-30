@@ -1,4 +1,4 @@
-# advent-of-code-2021
+# advent-of-code-2022
 
 A collection of JavaScript solutions to Advent of Code 2022.
 
@@ -8,7 +8,7 @@ With a first stab of a system to generate files and download code inputs
 
 Using dotenv (.env file):
 
-1. Login to Advent of code in your browser and find the cooike called "session".
+1. Login to Advent of code in your browser and find the cookie called "session".
 2. Add the session value to the .env file: `ADVENT_OF_CODE_SESSION=xxx`
 
 ## Commands
