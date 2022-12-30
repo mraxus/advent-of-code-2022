@@ -1,5 +1,5 @@
 {
-  "name": "advent-of-code-2021",
+  "name": "advent-of-code-2022",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -62,9 +62,13 @@
       {
         "day": 9,
         "name": "Rope Bridge"
+      },
+      {
+        "day": 10,
+        "name": "Cathode-Ray Tube"
       }
     ],
     "author": "mraxus",
-    "stars": 16
+    "stars": 18
   }
 }
