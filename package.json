@@ -66,9 +66,13 @@
       {
         "day": 10,
         "name": "Cathode-Ray Tube"
+      },
+      {
+        "day": 11,
+        "name": "Monkey in the Middle"
       }
     ],
     "author": "mraxus",
-    "stars": 18
+    "stars": 20
   }
 }
