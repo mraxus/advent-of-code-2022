@@ -70,9 +70,13 @@
       {
         "day": 11,
         "name": "Monkey in the Middle"
+      },
+      {
+        "day": 12,
+        "name": "Hill Climbing Algorithm"
       }
     ],
     "author": "mraxus",
-    "stars": 20
+    "stars": 22
   }
 }
