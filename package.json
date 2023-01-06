@@ -74,9 +74,13 @@
       {
         "day": 12,
         "name": "Hill Climbing Algorithm"
+      },
+      {
+        "day": 13,
+        "name": "Distress Signal"
       }
     ],
     "author": "mraxus",
-    "stars": 22
+    "stars": 24
   }
 }
