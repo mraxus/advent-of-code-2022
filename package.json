@@ -78,9 +78,13 @@
       {
         "day": 13,
         "name": "Distress Signal"
+      },
+      {
+        "day": 14,
+        "name": "Regolith Reservoir"
       }
     ],
     "author": "mraxus",
-    "stars": 24
+    "stars": 26
   }
 }
